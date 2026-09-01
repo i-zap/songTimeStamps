@@ -1,0 +1,23 @@
+# Dependencies
+frontend/node_modules/
+backend/.venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Frontend
+frontend/dist/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
