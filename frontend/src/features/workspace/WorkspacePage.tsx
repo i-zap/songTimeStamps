@@ -1,6 +1,9 @@
+import { useHealthQuery } from "../../api/health";
 import Button from "../../components/ui/Button";
 
 function WorkspacePage() {
+  const { data, isPending, isError } = useHealthQuery();
+
   return (
     <section className="mx-auto max-w-6xl px-6 py-16">
       <div>
@@ -21,12 +24,34 @@ function WorkspacePage() {
         <h3 className="text-lg font-semibold">
           Drop your audio file here
         </h3>
+
         <p className="mt-2 text-sm text-zinc-500">
           FLAC, MP3, WAV, M4A and more
         </p>
+
         <Button className="mt-6">
           Choose Audio
         </Button>
+      </div>
+
+      <div className="mt-6 text-sm">
+        {isPending && (
+          <p className="text-zinc-500">
+            Checking local engine...
+          </p>
+        )}
+
+        {isError && (
+          <p className="text-red-400">
+            Local engine unavailable.
+          </p>
+        )}
+
+        {data && (
+          <p className="text-emerald-400">
+            Local engine connected — {data.service}
+          </p>
+        )}
       </div>
     </section>
   );
