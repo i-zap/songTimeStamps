@@ -7,9 +7,12 @@ from app.alignment.feature_timeline import FeatureTimeline
 from app.alignment.features import frame_audio
 from app.alignment.onset import calculate_onset_strength
 from app.alignment.preprocessing import to_mono
+from app.alignment.result_builder import build_alignments
 from app.alignment.rms import calculate_rms
 from app.alignment.signal import calculate_boundary_strength
 from app.alignment.spectral import calculate_spectral_flux
+from app.domain.alignment import Alignment
+from app.domain.lyrics import LyricDocument
 
 
 def build_feature_timeline(
@@ -19,7 +22,11 @@ def build_feature_timeline(
 ) -> FeatureTimeline:
     mono_samples = to_mono(audio)
 
-    frames = frame_audio(mono_samples, frame_size=frame_size, hop_size=hop_size)
+    frames = frame_audio(
+        mono_samples,
+        frame_size=frame_size,
+        hop_size=hop_size,
+    )
 
     rms = calculate_rms(frames)
     spectral_flux = calculate_spectral_flux(frames)
@@ -38,6 +45,7 @@ def build_feature_timeline(
                 onset_strength=float(onset_strength[index]),
             )
         )
+
     return FeatureTimeline(frames=feature_frames)
 
 
@@ -79,4 +87,30 @@ def find_candidates_timestamps(
         dtype=np.float32,
     )
 
-    return detect_candidates(timestamps, boundary_strength, threshold=threshold)
+    return detect_candidates(
+        timestamps,
+        boundary_strength,
+        threshold=threshold,
+    )
+
+
+def build_alignment(
+    audio: AudioSamples,
+    lyrics: LyricDocument,
+    frame_size: int = 1024,
+    hop_size: int = 512,
+    threshold: float = 0.5,
+) -> list[Alignment]:
+    candidate_timestamps = find_candidates_timestamps(
+        audio,
+        frame_size=frame_size,
+        hop_size=hop_size,
+        threshold=threshold,
+    )
+
+    return build_alignments(
+        lyric_lines=lyrics.lines,
+        candidate_timestamps=candidate_timestamps,
+        document_id=lyrics.id,
+        audio_duration=audio.duration,
+    )
