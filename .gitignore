@@ -21,3 +21,6 @@ frontend/dist/
 
 # Other
 .vscode/
+
+# Data
+experiments/v1/data/*
