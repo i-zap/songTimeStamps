@@ -5,6 +5,17 @@ from app.alignment.audio import load_audio
 from app.alignment.pipeline import build_alignment
 from app.domain.lyrics import LyricDocument, LyricLine
 
+DATA_DIR = Path(__file__).resolve().parent / "data"
+
+
+def resolve_input_path(path: str) -> Path:
+    candidate = Path(path).resolve()
+    try:
+        candidate.relative_to(DATA_DIR.resolve())
+    except ValueError:
+        raise ValueError(f"Input file must be inside {DATA_DIR}") from None
+    return candidate
+
 
 def load_lyrics(path: Path) -> LyricDocument:
     lines = [
@@ -12,11 +23,9 @@ def load_lyrics(path: Path) -> LyricDocument:
         for line in path.read_text(encoding="utf-8").splitlines()
         if line.strip()
     ]
-
     lyric_lines = [
         LyricLine(index=index, text=text) for index, text in enumerate(lines)
     ]
-
     return LyricDocument(
         language="unknown",
         role="original",
@@ -29,14 +38,18 @@ def main() -> None:
         print("Usage: uv run python experiments/v1/run.py <audio> <lyrics>")
         raise SystemExit(1)
 
-    audio_path = Path(sys.argv[1])
-    lyrics_path = Path(sys.argv[2])
+    try:
+        audio_path = resolve_input_path(sys.argv[1])
+        lyrics_path = resolve_input_path(sys.argv[2])
+    except ValueError as error:
+        print(error)
+        raise SystemExit(1) from None
 
-    if not audio_path.exists():
+    if not audio_path.is_file():
         print(f"Audio file not found: {audio_path}")
         raise SystemExit(1)
 
-    if not lyrics_path.exists():
+    if not lyrics_path.is_file():
         print(f"Lyrics file not found: {lyrics_path}")
         raise SystemExit(1)
 
@@ -56,9 +69,7 @@ def main() -> None:
 
     for alignment in alignments:
         reference = alignment.lyric_references[0]
-
         lyric_line = next(line for line in lyrics.lines if line.id == reference.line_id)
-
         print(
             f"{alignment.audio_start:8.3f}s → "
             f"{alignment.audio_end:8.3f}s | "
