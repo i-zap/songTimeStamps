@@ -20,6 +20,8 @@ def test_build_alignments_creates_time_ranges():
         candidate_timestamps=[1.0, 3.0, 5.0],
         document_id=document_id,
         audio_duration=7.0,
+        lyric_start=0.0,
+        lyric_end=7.0,
     )
 
     assert len(alignments) == 3

@@ -34,6 +34,8 @@ def test_build_alignment_creates_alignments():
     alignments = build_alignment(
         audio=audio,
         lyrics=lyrics,
+        lyric_start=0.0,
+        lyric_end=7.0,
     )
 
     assert isinstance(alignments, list)

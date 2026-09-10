@@ -104,12 +104,17 @@ def build_alignment(
     lyric_start: float = 0.0,
     lyric_end: float | None = None,
 ) -> list[Alignment]:
+    if lyric_end is None:
+        lyric_end = audio.duration
+
     candidate_timestamps = find_candidates_timestamps(
         audio,
         frame_size=frame_size,
         hop_size=hop_size,
         threshold=threshold,
     )
+
+    print("CANDIDATES:", candidate_timestamps)
 
     return build_alignments(
         lyric_lines=lyrics.lines,

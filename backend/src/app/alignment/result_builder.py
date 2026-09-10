@@ -24,17 +24,14 @@ def build_alignments(
     if lyric_start < 0:
         raise ValueError("Lyric start must not be negative.")
 
-    if lyric_start >= audio_duration:
-        raise ValueError("Lyric start must be inside the audio duration.")
-
-    if lyric_end is not None:
-        if lyric_end <= lyric_start:
-            raise ValueError("Lyric end must be greater than lyric start.")
-
-        if lyric_end > audio_duration:
-            raise ValueError("Lyric end cannot exceed audio duration.")
-    else:
+    if lyric_end is None:
         lyric_end = audio_duration
+
+    if lyric_end <= lyric_start:
+        raise ValueError("Lyric end must be greater than lyric start.")
+
+    if lyric_end > audio_duration:
+        raise ValueError("Lyric end cannot exceed audio duration.")
 
     if len(candidate_timestamps) < len(lyric_lines):
         raise ValueError("Not enough candidate timestamps for lyric lines.")
