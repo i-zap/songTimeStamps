@@ -91,6 +91,7 @@ def find_candidates_timestamps(
         timestamps,
         boundary_strength,
         threshold=threshold,
+        min_spacing=0.5,
     )
 
 
@@ -100,6 +101,8 @@ def build_alignment(
     frame_size: int = 1024,
     hop_size: int = 512,
     threshold: float = 0.5,
+    lyric_start: float = 0.0,
+    lyric_end: float | None = None,
 ) -> list[Alignment]:
     candidate_timestamps = find_candidates_timestamps(
         audio,
@@ -113,4 +116,6 @@ def build_alignment(
         candidate_timestamps=candidate_timestamps,
         document_id=lyrics.id,
         audio_duration=audio.duration,
+        lyric_start=lyric_start,
+        lyric_end=lyric_end,
     )
