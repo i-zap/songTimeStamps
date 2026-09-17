@@ -4,7 +4,10 @@ from pathlib import Path
 
 from app.alignment.audio import load_audio
 from app.alignment.lrc import alignments_to_lrc
-from app.alignment.pipeline import build_alignment
+from app.alignment.pipeline import (
+    build_alignment,
+    find_candidates_timestamps,
+)
 from app.domain.lyrics import LyricDocument, LyricLine
 
 
@@ -14,9 +17,11 @@ def load_lyrics(path: Path) -> LyricDocument:
         for line in path.read_text(encoding="utf-8").splitlines()
         if line.strip()
     ]
+
     lyric_lines = [
         LyricLine(index=index, text=text) for index, text in enumerate(lines)
     ]
+
     return LyricDocument(
         language="unknown",
         role="original",
@@ -46,6 +51,10 @@ def main() -> None:
     lyric_start = 17.15
     lyric_end = 233.47
 
+    # Capture the candidate timestamps used by the experiment.
+    candidate_timestamps = find_candidates_timestamps(audio)
+
+    # Run the actual V1 alignment pipeline.
     alignments = build_alignment(
         audio=audio,
         lyrics=lyrics,
@@ -56,22 +65,25 @@ def main() -> None:
     # ------------------------------------------------------------------
     # Generate experiment artifacts
     # ------------------------------------------------------------------
+
     results_dir = Path("experiments/v1/results")
     results_dir.mkdir(parents=True, exist_ok=True)
 
-    # Human-readable LRC prediction
+    # Human-readable LRC prediction.
     lrc_text = alignments_to_lrc(
         alignments=alignments,
         lyric_lines=lyrics.lines,
     )
+
     predicted_lrc_path = results_dir / "predicted.lrc"
     predicted_lrc_path.write_text(
         lrc_text,
         encoding="utf-8",
     )
 
-    # Machine-readable prediction/evidence
+    # Machine-readable prediction/evidence.
     predicted_json_path = results_dir / "predicted.json"
+
     predicted_json = {
         "version": "v1",
         "audio": {
@@ -88,6 +100,7 @@ def main() -> None:
             "start": lyric_start,
             "end": lyric_end,
         },
+        "candidates": [float(timestamp) for timestamp in candidate_timestamps],
         "alignments": [
             {
                 "id": str(alignment.id),
@@ -106,6 +119,7 @@ def main() -> None:
             for alignment in alignments
         ],
     }
+
     predicted_json_path.write_text(
         json.dumps(
             predicted_json,
@@ -118,18 +132,20 @@ def main() -> None:
     # ------------------------------------------------------------------
     # Terminal output
     # ------------------------------------------------------------------
+
     print(f"Audio duration: {audio.duration:.3f}s")
     print(f"Audio sample rate: {audio.sample_rate}")
     print(f"Lyric lines: {len(lyrics.lines)}")
     print(f"Lyric region: {lyric_start:.2f}s → {lyric_end:.2f}s")
+    print(f"Candidates: {len(candidate_timestamps)}")
     print(f"Alignments: {len(alignments)}")
     print()
 
     for alignment in alignments:
         reference = alignment.lyric_references[0]
-        lyric_line = next(
-            line for line in lyrics.lines if line.id == reference.line_id
-        )
+
+        lyric_line = next(line for line in lyrics.lines if line.id == reference.line_id)
+
         print(
             f"{alignment.audio_start:8.3f}s → "
             f"{alignment.audio_end:8.3f}s | "
@@ -138,7 +154,7 @@ def main() -> None:
         )
 
     print()
-    print(f"Prediction LRC: {predicted_lrc_path}")
+    print(f"Prediction LRC:  {predicted_lrc_path}")
     print(f"Prediction JSON: {predicted_json_path}")
 
 

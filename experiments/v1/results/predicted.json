@@ -7,713 +7,971 @@
   },
   "lyrics": {
     "filename": "lyrics.txt",
-    "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
+    "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
     "line_count": 54
   },
   "lyric_region": {
     "start": 17.15,
     "end": 233.47
   },
+  "candidates": [
+    3.4713833332061768,
+    4.040272235870361,
+    4.783310890197754,
+    5.352199554443359,
+    5.909478664398193,
+    6.478367328643799,
+    8.742313385009766,
+    9.4853515625,
+    11.737687110900879,
+    13.409523963928223,
+    13.978412628173828,
+    14.535691261291504,
+    15.127799987792969,
+    17.728435516357422,
+    19.969160079956055,
+    20.921178817749023,
+    21.501678466796875,
+    23.742403030395508,
+    24.473833084106445,
+    25.971519470214844,
+    29.90730094909668,
+    30.4761905670166,
+    32.91428756713867,
+    34.22621154785156,
+    34.96925354003906,
+    35.723899841308594,
+    36.50177001953125,
+    37.244808197021484,
+    41.52888870239258,
+    42.0977783203125,
+    42.68988800048828,
+    43.409706115722656,
+    44.16435241699219,
+    45.4995002746582,
+    46.03356170654297,
+    46.973968505859375,
+    47.93759536743164,
+    48.471656799316406,
+    49.22630310058594,
+    51.09550857543945,
+    52.2216796875,
+    52.97632598876953,
+    53.53360366821289,
+    54.29986572265625,
+    55.600181579589844,
+    56.36643981933594,
+    56.912109375,
+    57.48099899291992,
+    58.06149673461914,
+    58.96707534790039,
+    59.53596496582031,
+    60.09324264526367,
+    60.859500885009766,
+    61.97406005859375,
+    62.53133773803711,
+    63.285987854003906,
+    63.843265533447266,
+    64.41215515136719,
+    64.98104095458984,
+    65.53832244873047,
+    66.0956039428711,
+    66.67610168457031,
+    67.96480560302734,
+    68.55691528320312,
+    69.28834533691406,
+    69.84562683105469,
+    70.4261245727539,
+    70.97179412841797,
+    71.55229187011719,
+    72.29532623291016,
+    73.4098892211914,
+    73.97877502441406,
+    74.9075698852539,
+    75.68544006347656,
+    76.97415161132812,
+    77.53142547607422,
+    78.1003189086914,
+    78.6575927734375,
+    79.22648620605469,
+    79.78376770019531,
+    81.49043273925781,
+    82.41922760009766,
+    83.34803009033203,
+    83.92852783203125,
+    84.47419738769531,
+    85.42621612548828,
+    88.2242202758789,
+    89.35038757324219,
+    90.49977111816406,
+    92.34575653076172,
+    94.24979400634766,
+    95.7242660522461,
+    98.16236114501953,
+    98.94022369384766,
+    100.21732330322266,
+    101.74983978271484,
+    103.5958251953125,
+    104.53623962402344,
+    105.66240692138672,
+    106.21968078613281,
+    106.97433471679688,
+    108.47201538085938,
+    109.24988555908203,
+    109.78394317626953,
+    111.09587097167969,
+    112.59355926513672,
+    113.34820556640625,
+    114.10285949707031,
+    116.7034912109375,
+    117.4697494506836,
+    118.22439575195312,
+    118.80490112304688,
+    120.44190216064453,
+    121.03401184082031,
+    121.8002700805664,
+    122.35755157470703,
+    122.93804931640625,
+    123.48371887207031,
+    124.02938842773438,
+    124.59827423095703,
+    125.97986602783203,
+    126.8506088256836,
+    127.79102325439453,
+    128.71981811523438,
+    129.47447204589844,
+    130.58901977539062,
+    131.1579132080078,
+    132.45823669433594,
+    133.0503387451172,
+    133.7933807373047,
+    134.33905029296875,
+    135.47682189941406,
+    136.0341033935547,
+    136.5913848876953,
+    137.72915649414062,
+    138.4838104248047,
+    139.41261291503906,
+    139.9814910888672,
+    141.4675750732422,
+    142.59373474121094,
+    145.21759033203125,
+    145.9722442626953,
+    146.7152862548828,
+    147.4699249267578,
+    148.22457885742188,
+    148.96762084960938,
+    149.66421508789062,
+    150.46530151367188,
+    151.21995544433594,
+    151.9862060546875,
+    152.74085998535156,
+    153.4722900390625,
+    154.23855590820312,
+    154.969970703125,
+    155.5388641357422,
+    156.65342712402344,
+    157.419677734375,
+    157.97695922851562,
+    158.55746459960938,
+    159.4746551513672,
+    160.21768188476562,
+    160.9723358154297,
+    162.08689880371094,
+    163.2362823486328,
+    163.75872802734375,
+    164.35084533691406,
+    165.0938720703125,
+    165.84852600097656,
+    166.38258361816406,
+    167.5435791015625,
+    168.29823303222656,
+    173.5459442138672,
+    178.4105224609375,
+    179.00262451171875,
+    179.53668212890625,
+    180.09396362304688,
+    181.2201385498047,
+    181.78903198242188,
+    182.34629821777344,
+    182.91519165039062,
+    183.49569702148438,
+    184.9585418701172,
+    185.53904724121094,
+    186.09632873535156,
+    187.2224884033203,
+    187.9655303955078,
+    188.534423828125,
+    189.28907775878906,
+    189.84634399414062,
+    190.97251892089844,
+    191.54141235351562,
+    192.0870819091797,
+    192.6559600830078,
+    193.9678955078125,
+    194.5483856201172,
+    195.27981567382812,
+    195.83709716796875,
+    196.9980926513672,
+    197.5321502685547,
+    198.0894317626953,
+    198.84408569335938,
+    199.97024536132812,
+    200.91065979003906,
+    201.51437377929688,
+    202.23419189453125,
+    202.79147338867188,
+    203.33714294433594,
+    206.1583709716797,
+    207.087158203125,
+    207.85342407226562,
+    208.41070556640625,
+    209.0028076171875,
+    210.50050354003906,
+    211.5918426513672,
+    212.3464813232422,
+    213.0895233154297,
+    214.59881591796875,
+    215.34185791015625,
+    215.91075134277344,
+    216.46803283691406,
+    217.0369110107422,
+    217.5941925048828,
+    218.53460693359375,
+    219.47500610351562,
+    220.5431365966797,
+    221.33261108398438,
+    221.9014892578125,
+    222.44715881347656,
+    223.0276641845703,
+    223.7707061767578,
+    224.6995086669922,
+    225.2683868408203,
+    225.84889221191406,
+    226.4061737060547,
+    226.9750518798828,
+    227.5439453125,
+    228.08961486816406,
+    228.84426879882812,
+    229.4015350341797,
+    230.93405151367188,
+    231.47972106933594,
+    232.04861450195312,
+    232.9774169921875,
+    233.90621948242188,
+    234.46348571777344,
+    235.40390014648438,
+    235.97279357910156,
+    236.72743225097656,
+    237.47047424316406,
+    238.42250061035156,
+    238.96817016601562,
+    239.92018127441406,
+    241.0347442626953,
+    241.60362243652344,
+    242.17251586914062,
+    243.28707885742188
+  ],
   "alignments": [
     {
-      "id": "6f367704-b568-475f-aba8-bbad47bfd326",
+      "id": "675d84a1-e378-4fc7-ad11-03d66549322a",
       "audio_start": 17.728435516357422,
       "audio_end": 20.921178817749023,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "bbc5d54e-7fc7-4268-88b2-3b95bb67cf5a"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "ffc67f79-99c6-4aae-9123-b631a9c91325"
         }
       ]
     },
     {
-      "id": "c1c3df1e-c245-446f-b8b7-bf0b8d74296e",
+      "id": "d38883dd-b08d-49e1-a1c4-064d8cb500de",
       "audio_start": 20.921178817749023,
       "audio_end": 23.742403030395508,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "0893b9e7-2c70-41a7-8e1e-948c1a01c4ce"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "f5111491-9ef1-4886-b5a9-f4ac775d6828"
         }
       ]
     },
     {
-      "id": "fd68ca1f-dda1-43f7-b063-4e1435b98141",
+      "id": "45ecfa3d-de78-4370-a82a-75c6aa4308bb",
       "audio_start": 23.742403030395508,
       "audio_end": 25.971519470214844,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "5633ea59-acdc-464a-8615-5b47e98d39cb"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "69cd8a59-fabe-496a-ac93-6c52f04351db"
         }
       ]
     },
     {
-      "id": "a4e09bdc-cb35-447f-b993-33ca796aab7c",
+      "id": "69f16392-44d9-4b4f-b04c-e99c4a7c2f04",
       "audio_start": 25.971519470214844,
       "audio_end": 30.4761905670166,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "100e24bc-e263-47e0-a46c-c8f220c788c6"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "e276e2e8-18b3-457f-baa5-1d117313d2c3"
         }
       ]
     },
     {
-      "id": "50adc99d-361a-4977-8d9f-a4f6ebd2f635",
+      "id": "efee69e0-f5cf-406d-93fe-83b3af9a56ca",
       "audio_start": 30.4761905670166,
       "audio_end": 34.22621154785156,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "d2993749-518d-42ba-aef6-559f63adf367"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "032c83e9-9f55-4377-a40e-73812581e4db"
         }
       ]
     },
     {
-      "id": "ce9ad570-75c9-4bbc-aca8-8ea399fdc750",
+      "id": "302dedbc-fc84-414a-8fa6-93e3281db74f",
       "audio_start": 34.22621154785156,
       "audio_end": 37.244808197021484,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "7af9b9c6-68fb-4661-bd21-431cf79c4029"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "2b470bd1-8192-4ee5-8ef1-77fedb0176dc"
         }
       ]
     },
     {
-      "id": "69e81dd3-4a3d-43e2-a6c3-70d012fce47c",
+      "id": "89996253-148b-4cb5-9c1b-763ba7ad82d4",
       "audio_start": 37.244808197021484,
       "audio_end": 42.68988800048828,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "e989312b-f3eb-441c-9fdb-6e9bd320f537"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "fb2be4a1-5afb-4120-9ddb-cc484ece880f"
         }
       ]
     },
     {
-      "id": "efb75507-62ae-45f7-8697-11e849f291a0",
+      "id": "1dd00c9b-b363-4f9c-9a28-30330a64bd78",
       "audio_start": 42.68988800048828,
       "audio_end": 48.471656799316406,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "e0c1be69-7878-4d06-8c12-77603aeebc59"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "34181df5-035e-40b1-abd0-8048406d21c7"
         }
       ]
     },
     {
-      "id": "5ece6750-68e1-4e52-b21d-bfe5f4f759cf",
+      "id": "745a94d4-d674-48b7-86c4-7f6dbd4cea40",
       "audio_start": 48.471656799316406,
       "audio_end": 52.97632598876953,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "88f989d0-adcc-4afa-839e-641124a1f277"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "a614ab6a-ac58-435c-93d0-2ea6611562f4"
         }
       ]
     },
     {
-      "id": "b71ac561-4a17-4221-8f58-d631b64c7142",
+      "id": "4608fae9-ad5a-47ff-9a64-e72ee49f4e61",
       "audio_start": 52.97632598876953,
       "audio_end": 55.600181579589844,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "232a93d8-5c62-4deb-9a01-34ef8779b991"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "abbdb482-46fb-4755-90e3-513f38c9593e"
         }
       ]
     },
     {
-      "id": "143dda7e-8213-4da3-987e-1c2b172ab8d9",
+      "id": "4c54794b-9bef-4a6c-860c-ab4776733b9f",
       "audio_start": 55.600181579589844,
       "audio_end": 59.53596496582031,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "cba16ad4-b688-4f4c-ab18-9a2584f55d9d"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "7126c4da-7948-417e-80b9-57fb6004929f"
         }
       ]
     },
     {
-      "id": "02e6867d-990c-4d8c-8b32-978c67751963",
+      "id": "c22f25d8-cf78-45bc-8aa7-b922c79fa2b6",
       "audio_start": 59.53596496582031,
       "audio_end": 62.53133773803711,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "a187474d-10b7-4f2a-83fe-0236c5f19893"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "7d55e468-bcec-4a39-afba-ffb9dbc12894"
         }
       ]
     },
     {
-      "id": "effcd68e-4e72-4742-8895-71d0eda7f96d",
+      "id": "540a32a3-83ce-470b-aa3c-a4f5f079e4d6",
       "audio_start": 62.53133773803711,
       "audio_end": 66.0956039428711,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "f3fb2956-7635-44b2-9b10-00940aa448ff"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "b2b35de5-dc40-4e39-87e3-fe42fc9a31d2"
         }
       ]
     },
     {
-      "id": "f48705b9-b66f-4608-9652-dbe82fc8bed8",
+      "id": "820b3010-9dbb-4596-989e-bc4d22a1e929",
       "audio_start": 66.0956039428711,
       "audio_end": 68.55691528320312,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "40c77e6f-2e59-4d71-a6bb-30198c420a71"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "85b934b3-887e-4a33-83ce-8a4f820a45da"
         }
       ]
     },
     {
-      "id": "9d642e3b-b72e-44f8-ad6c-906e19aac45d",
+      "id": "3af4b6b9-ef1c-4517-a1ea-6d534a134a61",
       "audio_start": 68.55691528320312,
       "audio_end": 72.29532623291016,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "dd7a544d-b985-489e-8546-af1b677a412b"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "c080db15-81f0-4263-9d22-56f5376d5d6d"
         }
       ]
     },
     {
-      "id": "147dc5a4-a743-4a99-be2c-3d693a25faeb",
+      "id": "8b64a6c5-5c84-4174-8253-7e5cf491f541",
       "audio_start": 72.29532623291016,
       "audio_end": 75.68544006347656,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "731bbf2d-1837-41d3-bba3-968a2bee2d36"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "643c03c8-a2f0-4722-b93a-34cbf6b7ae38"
         }
       ]
     },
     {
-      "id": "ab055064-9d33-425c-aafc-d2b3f997a1bf",
+      "id": "8c2ab023-faad-4721-b1d9-e11ec561f9bd",
       "audio_start": 75.68544006347656,
       "audio_end": 81.49043273925781,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "595bdc05-5896-4dff-a940-5ea8ea663ec7"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "36245e88-6344-4b20-bb4f-5a8372ec28e6"
         }
       ]
     },
     {
-      "id": "622ae03c-41ff-4b04-b044-d3df9f3c5398",
+      "id": "f0aa434d-9da8-4194-8460-837c183c52d6",
       "audio_start": 81.49043273925781,
       "audio_end": 85.42621612548828,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "f6d04d9a-a5cd-4ec3-9be7-8828245fd103"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "6bfdfbc4-7132-427a-b964-1659eca13044"
         }
       ]
     },
     {
-      "id": "bc9438a8-09e4-4b75-845f-9883d06a0149",
+      "id": "ccca726c-bd11-4830-9b1d-ad617dd79ccb",
       "audio_start": 85.42621612548828,
       "audio_end": 90.49977111816406,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "eb790f2c-272f-4547-83f2-cd059f7f8625"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "406bb7d4-46e2-4c43-9ed3-43281c58315a"
         }
       ]
     },
     {
-      "id": "49425a51-8b24-45c4-9d94-b1e573e23949",
+      "id": "0aa4713a-393c-4c2d-a88b-2d34489548f1",
       "audio_start": 90.49977111816406,
       "audio_end": 94.24979400634766,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "7c38df8f-12b7-4162-b8bc-62efafdc6561"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "346ec5cf-2530-42b2-bdcc-af6f95586ddd"
         }
       ]
     },
     {
-      "id": "a9244728-3e59-4fd2-bd41-8d329a1ac2bb",
+      "id": "6c5b8f9d-d254-4faa-845e-fc7226da9aee",
       "audio_start": 94.24979400634766,
       "audio_end": 98.16236114501953,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "52e0b77e-df98-4064-bc3e-91ab09bfb66b"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "0d207137-8976-4366-8048-5d8b676af49d"
         }
       ]
     },
     {
-      "id": "8c98d410-f57f-46c4-96cb-09183621135f",
+      "id": "8868f41e-a685-43cb-a51b-8622649de6dc",
       "audio_start": 98.16236114501953,
       "audio_end": 103.5958251953125,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "46c19c55-527f-4d95-8963-3ec8b882474d"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "6dd0d070-aea4-485d-a45c-851964b99251"
         }
       ]
     },
     {
-      "id": "baa43352-3a91-4082-affe-9e912c696b87",
+      "id": "b046e185-e2e8-4d4d-9f8a-a95d5f0b089c",
       "audio_start": 103.5958251953125,
       "audio_end": 109.78394317626953,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "56ab0715-a5fb-4fe6-99b6-bdb52b8ceac0"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "d9295053-3947-4e0c-acbe-90cfadcb48aa"
         }
       ]
     },
     {
-      "id": "546e64df-a9ec-4bda-a37e-7533d33f7be2",
+      "id": "a9f517b5-2f92-406d-a329-ab2795e41da1",
       "audio_start": 109.78394317626953,
       "audio_end": 114.10285949707031,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "fb0d6125-a8ee-41e5-9031-baf1a37f03dc"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "51c5b35f-6497-4f2d-b3c5-f4387fbdb4c9"
         }
       ]
     },
     {
-      "id": "31cf06d8-b730-4c06-a090-61ef98affb40",
+      "id": "30fbfe44-9de7-4668-b273-57520ad1e3cf",
       "audio_start": 114.10285949707031,
       "audio_end": 116.7034912109375,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "cf0059e4-e7df-48a1-b83a-e41abd1434d9"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "09c2f59e-e7c6-4535-aa5a-2273a0a65d5b"
         }
       ]
     },
     {
-      "id": "79d96426-6d88-42a9-83f2-b4efd622553e",
+      "id": "eb8a0ae6-dcd2-4fdf-94f5-43f93e1fd4b5",
       "audio_start": 116.7034912109375,
       "audio_end": 120.44190216064453,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "b9484451-9a8c-4af2-8924-041200a9aeff"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "cc1ca8be-ff42-4a28-8171-b36f2c9a16c4"
         }
       ]
     },
     {
-      "id": "c7b5b1e6-4e8e-4e49-9a84-19d8d4638bad",
+      "id": "da3c3861-bb49-4c7a-ad5f-4f4200a64d27",
       "audio_start": 120.44190216064453,
       "audio_end": 122.93804931640625,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "4327157a-a736-4e65-9f23-a31da78d7f4e"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "0f21ecba-78a9-4d9e-b954-07d90a46e9ff"
         }
       ]
     },
     {
-      "id": "713aa8ca-284d-4cb0-8ba8-893d637065cd",
+      "id": "2e1b56b9-9383-458a-9397-e625c049173a",
       "audio_start": 122.93804931640625,
       "audio_end": 126.8506088256836,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "d53f7845-e7f0-4bf8-8757-165379504d2d"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "53e8eeda-1f09-4b14-af23-c3139f43f96f"
         }
       ]
     },
     {
-      "id": "1163a4bc-d10d-409e-a5d3-0e169ec66439",
+      "id": "620f0de2-a5d3-40ca-b235-6e538c1d5d0d",
       "audio_start": 126.8506088256836,
       "audio_end": 129.47447204589844,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "d196dd3c-7f55-4a0c-bf16-59347f3ad2f0"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "606ad64b-b5fe-4124-a29c-8f9f3e2d6f88"
         }
       ]
     },
     {
-      "id": "b7218815-cf71-4fa3-8817-1662cd011c20",
+      "id": "878160ba-5b7a-4ce5-82d7-05bc11a936a2",
       "audio_start": 129.47447204589844,
       "audio_end": 133.7933807373047,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "890f627d-640f-4450-9c05-dd1ca6deaf64"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "f3e61c79-40af-4dc0-9baa-5cdd566e3dab"
         }
       ]
     },
     {
-      "id": "bc90e4dd-bd48-4250-b34e-e6e0d1869654",
+      "id": "7ff8d08b-236a-4b9f-a2f8-368106e34322",
       "audio_start": 133.7933807373047,
       "audio_end": 137.72915649414062,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "ff85eee7-8d44-45b2-a1e4-530d77de302e"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "bd7026dc-d931-4c68-bfa0-df1fa56aafcd"
         }
       ]
     },
     {
-      "id": "8d5e9b05-e80f-43b8-a4e1-b19316411be1",
+      "id": "de57a9fe-681a-4112-b5e3-87c4b4e03a6d",
       "audio_start": 137.72915649414062,
       "audio_end": 145.21759033203125,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "15b2d2fd-0351-4260-a220-26f13f190966"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "340ecab3-6ab7-400f-8372-77ae52b14f69"
         }
       ]
     },
     {
-      "id": "694a587b-6930-4762-84d4-231c3ba70e72",
+      "id": "69c0f9f6-74d5-4b91-b8e7-dbd4c433b023",
       "audio_start": 145.21759033203125,
       "audio_end": 151.21995544433594,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "8b992a2d-1efc-4842-b08d-19928b1a8a39"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "1dfa6d0f-86da-4d05-a77b-218dc78b977d"
         }
       ]
     },
     {
-      "id": "b901f292-da9f-418c-bd74-1374a6977188",
+      "id": "c3d6908c-5bec-40a5-8bf9-301a1c9c8caf",
       "audio_start": 151.21995544433594,
       "audio_end": 156.65342712402344,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "fe8e72f9-ece1-41a5-af2e-c2a79334512f"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "7d62685e-5b9b-4223-870c-d8f588695838"
         }
       ]
     },
     {
-      "id": "24c569c2-0a0a-4e40-89d8-857c22b5185b",
+      "id": "7d3a254a-cded-47ac-8180-4cdb9d4154ae",
       "audio_start": 156.65342712402344,
       "audio_end": 162.08689880371094,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "5e7e74b4-608b-4195-99dd-d7fe006ddbc2"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "8718c8bf-edbb-42e4-8c7e-ada4ea748868"
         }
       ]
     },
     {
-      "id": "992643e7-4fa4-4bd9-87ca-4edd4fa70ca7",
+      "id": "75468f82-d4c2-43cb-bb86-479632ceec1a",
       "audio_start": 162.08689880371094,
       "audio_end": 165.84852600097656,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "5c94187c-de94-4825-8a80-3042cda96482"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "03dca319-c3fb-4e30-a396-84df06b1fb44"
         }
       ]
     },
     {
-      "id": "0959208f-572d-49eb-8496-4cab95d928f2",
+      "id": "b96bb8d2-4724-4c11-aef8-1d3c03fb40dd",
       "audio_start": 165.84852600097656,
       "audio_end": 168.29823303222656,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "5c3c4f05-ae41-420c-972a-14c50a2a2d00"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "945b737e-e2b0-485d-9944-05c62413cfd1"
         }
       ]
     },
     {
-      "id": "d1ea92d6-97fa-46f5-a7bb-4d3c1152d3a4",
+      "id": "e2a73084-e5ad-4343-8d81-6253f17bd969",
       "audio_start": 168.29823303222656,
       "audio_end": 173.5459442138672,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "ebc5d74d-ca9d-4627-a894-cca3ef41a1b3"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "a2cdfe0f-9a11-4011-b198-42c861855381"
         }
       ]
     },
     {
-      "id": "7abb347e-b8cf-42b2-b6c1-4690b83b7e45",
+      "id": "2a8099f6-ff6f-48f8-b5c3-be97c0c98132",
       "audio_start": 173.5459442138672,
       "audio_end": 178.4105224609375,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "22c5407a-cb65-4772-ad57-1ce4a4999cf7"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "19a2e2d6-cddc-4095-8d6c-280d1a2ac83f"
         }
       ]
     },
     {
-      "id": "95fe9d3a-c070-40dd-8dc7-42714ccf72d8",
+      "id": "4081fad9-9692-4026-af09-4f42f5340e28",
       "audio_start": 178.4105224609375,
       "audio_end": 181.2201385498047,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "ef616399-d507-4cb4-869e-7c9a0a541eeb"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "6c365cb0-7295-485d-9950-053a4469f33a"
         }
       ]
     },
     {
-      "id": "e4e1afc5-9d69-4411-bc67-bcd1a71d7ce9",
+      "id": "cd20d52b-04a3-4750-9afb-38769698db49",
       "audio_start": 181.2201385498047,
       "audio_end": 185.53904724121094,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "6a21a564-cfa6-46fe-b823-36f1e96a1302"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "e8aa894c-37a3-440b-ad7e-0830e8bcc2af"
         }
       ]
     },
     {
-      "id": "ca4e265a-94cc-4f12-9c0c-36a6bce89243",
+      "id": "784d97ac-0d2d-4f85-b7a4-2f9a5983ceb9",
       "audio_start": 185.53904724121094,
       "audio_end": 188.534423828125,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "4af8454f-be08-4a5b-90fb-14ed1d536e54"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "5e9e9947-f8f5-4828-9a35-9fa6491d0797"
         }
       ]
     },
     {
-      "id": "51eb4b70-db51-41a9-b0cf-52138bf0d0df",
+      "id": "06e65c2e-5f4d-43c0-b805-4ae8b4b230d5",
       "audio_start": 188.534423828125,
       "audio_end": 192.6559600830078,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "9220e797-6c71-4ede-ad29-254c44341172"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "a449b8c7-d4ef-4014-8e8a-a44687d6265d"
         }
       ]
     },
     {
-      "id": "3d7c71be-6ad3-4f39-b416-ff2b30ac658c",
+      "id": "b9935b06-721f-48be-b0e8-0867d9a5f249",
       "audio_start": 192.6559600830078,
       "audio_end": 195.83709716796875,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "abd8c1a8-b70c-4f9c-b71d-aa91d7c01e90"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "7b418db4-d1f5-4087-a726-2f105825a881"
         }
       ]
     },
     {
-      "id": "414f507a-d924-45d0-bd1c-6f5be4a9eff9",
+      "id": "ea22c0c7-48ae-414f-819b-789e236849f7",
       "audio_start": 195.83709716796875,
       "audio_end": 199.97024536132812,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "d0f75234-c593-4fe3-a178-eb61866d3e79"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "1d2800d3-763c-4aa0-aafa-d89936dfa857"
         }
       ]
     },
     {
-      "id": "3200b32e-faa4-400c-a60c-088aa1718eeb",
+      "id": "7c2222cf-0dc9-444f-a559-a6fb1e72e1c4",
       "audio_start": 199.97024536132812,
       "audio_end": 203.33714294433594,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "f0faa446-8762-401e-b90e-3c6c43dada13"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "5b4de166-ddf1-461b-bbf7-0caa41f3fb56"
         }
       ]
     },
     {
-      "id": "a1209abf-e3b8-498f-a4e7-e2c004557800",
+      "id": "6e0b0fd7-bb6f-4cce-a6f2-dff11fa67f10",
       "audio_start": 203.33714294433594,
       "audio_end": 206.1583709716797,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "a5758cd4-953d-4ce2-9251-17fa090f612a"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "b75fe22c-5031-4b5a-a5b8-6cf8b3b21fe5"
         }
       ]
     },
     {
-      "id": "bea7f116-4826-4dfe-88ff-35644f9e732a",
+      "id": "1600d34a-0a40-40ef-8ba1-b62c046f38af",
       "audio_start": 206.1583709716797,
       "audio_end": 209.0028076171875,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "ea88242e-0bd6-47de-8258-d7ceaea13757"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "8d414c20-5db2-4078-a5f1-e8e88676bc41"
         }
       ]
     },
     {
-      "id": "e3a54b83-4d2a-4abb-947d-ef71e16a4897",
+      "id": "261872e3-3b65-49ca-9361-a74bbf48300d",
       "audio_start": 209.0028076171875,
       "audio_end": 213.0895233154297,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "645a0723-3e13-4c6f-a4d6-d691e4cb620e"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "f87ab995-0af3-46ce-98e6-c1785dec56f6"
         }
       ]
     },
     {
-      "id": "3c85d6bf-9349-4138-b0af-df5c844241f6",
+      "id": "f7f18b64-bd37-4b3d-b17f-99c5a68c5de3",
       "audio_start": 213.0895233154297,
       "audio_end": 215.34185791015625,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "3333c0af-f224-4f14-99ef-4d3c256e94d6"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "739edc4c-a794-4e98-b64d-389caf8e65fe"
         }
       ]
     },
     {
-      "id": "b50daf8c-0a10-4731-b907-018138580844",
+      "id": "ec4a9fbc-c2df-4489-b0d7-19d9ec220b11",
       "audio_start": 215.34185791015625,
       "audio_end": 218.53460693359375,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "fa74d441-b98b-49e2-8dbc-d61e499e50ea"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "415e9611-40b6-4363-a313-883bf1b24343"
         }
       ]
     },
     {
-      "id": "69d9f4a3-111f-49ed-8d2f-679eb87b7f68",
+      "id": "5b9824f7-1044-4e94-9c73-df9bcb02192e",
       "audio_start": 218.53460693359375,
       "audio_end": 221.33261108398438,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "08471bba-c603-463d-9aa3-e8e790478623"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "37d5bcea-4488-41fc-b812-7c5f31a1a8c4"
         }
       ]
     },
     {
-      "id": "aad1d8b7-e9c9-41b0-923b-db52f142de95",
+      "id": "9af147a8-3025-4eca-af76-970e1650cc03",
       "audio_start": 221.33261108398438,
       "audio_end": 225.2683868408203,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "89a834ed-8b39-4d6d-926b-7c06e2551bba"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "fcff0496-bad3-4f47-8e65-5409e9a818fb"
         }
       ]
     },
     {
-      "id": "f7984381-6d09-471d-bac5-fc9420664dd6",
+      "id": "d5a30748-3e09-4864-a273-5c6ce087116d",
       "audio_start": 225.2683868408203,
       "audio_end": 233.47,
       "confidence": 0.5,
       "method": "v1_candidate_order",
       "lyric_references": [
         {
-          "document_id": "14b1f856-a07a-45c4-8c82-5408abf94a7f",
-          "line_id": "7b9af1e2-ce94-4d7f-afa5-34fe1f302456"
+          "document_id": "1d5afd03-97cd-4580-8ebb-247803555b84",
+          "line_id": "697a6331-8b3f-4502-92cd-82bd026eb78d"
         }
       ]
     }

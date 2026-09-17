@@ -36,6 +36,57 @@ def test_match_lyric_lines_assigns_candidates_in_order():
     assert matches[2][1] == pytest.approx(4.1)
 
 
+def test_match_lyric_lines_can_skip_distractor_candidates():
+    lyrics = [
+        LyricLine(index=0, text="first line"),
+        LyricLine(index=1, text="second line"),
+        LyricLine(index=2, text="third line"),
+    ]
+
+    timestamps = np.array(
+        [1.0, 2.0, 2.5, 4.0, 5.0],
+        dtype=np.float32,
+    )
+
+    matches = match_lyric_lines(
+        lyrics,
+        timestamps,
+        lyric_start=1.0,
+        lyric_end=5.0,
+    )
+
+    selected = [timestamp for _, timestamp in matches]
+
+    assert selected[0] == pytest.approx(1.0)
+    assert selected[0] < selected[1] < selected[2]
+
+
+def test_match_lyric_lines_preserves_lyric_order():
+    lyrics = [
+        LyricLine(index=10, text="first line"),
+        LyricLine(index=20, text="second line"),
+        LyricLine(index=30, text="third line"),
+    ]
+
+    timestamps = np.array(
+        [1.0, 2.0, 3.0, 4.0, 5.0],
+        dtype=np.float32,
+    )
+
+    matches = match_lyric_lines(
+        lyrics,
+        timestamps,
+        lyric_start=1.0,
+        lyric_end=5.0,
+    )
+
+    assert [line.index for line, _ in matches] == [10, 20, 30]
+
+    selected = [timestamp for _, timestamp in matches]
+
+    assert selected == sorted(selected)
+
+
 def test_match_lyric_lines_rejects_too_few_candidates_in_region():
     lyrics = [
         LyricLine(index=0, text="first line"),
@@ -44,7 +95,7 @@ def test_match_lyric_lines_rejects_too_few_candidates_in_region():
     ]
 
     timestamps = np.array(
-        [1.0, 2.0, 3.0, 10.0, 11.0],
+        [1.0, 2.0, 10.0, 11.0],
         dtype=np.float32,
     )
 
@@ -120,3 +171,43 @@ def test_match_lyric_lines_rejects_too_few_candidates():
             lyric_start=1.0,
             lyric_end=4.0,
         )
+
+
+def test_match_lyric_lines_handles_empty_lyrics():
+    lyrics = []
+
+    timestamps = np.array(
+        [1.0, 2.0, 3.0],
+        dtype=np.float32,
+    )
+
+    matches = match_lyric_lines(
+        lyrics,
+        timestamps,
+        lyric_start=1.0,
+        lyric_end=3.0,
+    )
+
+    assert matches == []
+
+
+def test_match_lyric_lines_handles_single_lyric_line():
+    lyrics = [
+        LyricLine(index=0, text="only line"),
+    ]
+
+    timestamps = np.array(
+        [1.0, 2.0, 3.0],
+        dtype=np.float32,
+    )
+
+    matches = match_lyric_lines(
+        lyrics,
+        timestamps,
+        lyric_start=1.0,
+        lyric_end=3.0,
+    )
+
+    assert len(matches) == 1
+    assert matches[0][0].text == "only line"
+    assert matches[0][1] == pytest.approx(1.0)

@@ -114,7 +114,7 @@ def build_alignment(
         threshold=threshold,
     )
 
-    print("CANDIDATES:", candidate_timestamps)
+    # print("CANDIDATES:", candidate_timestamps)
 
     return build_alignments(
         lyric_lines=lyrics.lines,
