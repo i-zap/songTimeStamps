@@ -5,6 +5,7 @@ def detect_candidates(
     timestamps: np.ndarray,
     boundary_strength: np.ndarray,
     threshold: float = 0.5,
+    min_spacing: float = 0.5,
 ) -> np.ndarray:
     if timestamps.ndim != 1 or boundary_strength.ndim != 1:
         raise ValueError("Timestamps and Boundary Strength must be 1D array.")
@@ -16,6 +17,9 @@ def detect_candidates(
 
     if not 0.0 <= threshold <= 1.0:
         raise ValueError("Threshold must be between 0 and 1.")
+
+    if min_spacing <= 0:
+        raise ValueError("Minimum spacing must be positive.")
 
     if len(timestamps) < 3:
         return np.array([], dtype=np.float32)
@@ -30,6 +34,9 @@ def detect_candidates(
             and current >= boundary_strength[index - 1]
             and current >= boundary_strength[index + 1]
         ):
-            candidates.append(timestamps[index])
+            timestamp = timestamps[index]
+
+            if not candidates or timestamp - candidates[-1] >= min_spacing:
+                candidates.append(timestamp)
 
     return np.asarray(candidates, dtype=np.float32)

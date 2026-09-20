@@ -1,0 +1,347 @@
+{
+"benchmark_id": "v1-real-song-001",
+"version": "v1",
+"description": "Real-song ground-truth benchmark for deterministic lyric alignment.",
+"audio": {
+"duration": 254.133,
+"sample_rate": 44100,
+"lyric_region": {
+"start": 17.15,
+"end": 233.16
+}
+},
+"source": {
+"path": "experiments/v1/data/original_lyrics.txt",
+"line_count": 50
+},
+"ground_truth": {
+"path": "experiments/v1/data/ground_truth.lrc",
+"segment_count": 54,
+"segments": [
+{
+"index": 0,
+"timestamp": 17.15,
+"source_line": 0,
+"text": "Ameagari no niji mo"
+},
+{
+"index": 1,
+"timestamp": 20.17,
+"source_line": 1,
+"text": "rin to saita hana mo"
+},
+{
+"index": 2,
+"timestamp": 23.23,
+"source_line": 2,
+"text": "irodzuki afuredasu"
+},
+{
+"index": 3,
+"timestamp": 28.98,
+"source_line": 3,
+"text": "Akaneiro no sora aogu kimi ni"
+},
+{
+"index": 4,
+"timestamp": 34.38,
+"source_line": 4,
+"text": "ano hi koi ni ochita"
+},
+{
+"index": 5,
+"timestamp": 40.73,
+"source_line": 5,
+"text": "Shunkan no doramachikku"
+},
+{
+"index": 6,
+"timestamp": 43.70,
+"source_line": 6,
+"text": "firumu no naka no hitokoma mo"
+},
+{
+"index": 7,
+"timestamp": 46.87,
+"source_line": 7,
+"text": "Kienai yo kokoro ni kizamu kara"
+},
+{
+"index": 8,
+"timestamp": 55.52,
+"source_line": 8,
+"text": "Kimi da yo kimi nanda yo"
+},
+{
+"index": 9,
+"timestamp": 58.50,
+"source_line": 9,
+"text": "oshietekureta"
+},
+{
+"index": 10,
+"timestamp": 61.52,
+"source_line": 10,
+"text": "Kurayami mo hikaru nara"
+},
+{
+"index": 11,
+"timestamp": 64.61,
+"source_line": 11,
+"text": "hoshizora ni naru"
+},
+{
+"index": 12,
+"timestamp": 67.52,
+"source_line": 12,
+"text": "Kanashimi mo egao ni"
+},
+{
+"index": 13,
+"timestamp": 70.30,
+"source_line": 13,
+"text": "mou kakusanai de"
+},
+{
+"index": 14,
+"timestamp": 73.42,
+"source_line": 14,
+"text": "Kirameku donna hoshi mo"
+},
+{
+"index": 15,
+"timestamp": 76.36,
+"source_line": 15,
+"text": "kimi wo terasu kara"
+},
+{
+"index": 16,
+"timestamp": 81.05,
+"source_line": 16,
+"text": "Nemuri mo wasurete mukaeta asashi ga"
+},
+{
+"index": 17,
+"timestamp": 87.84,
+"source_line": 17,
+"text": "yatara to tsukisasaru"
+},
+{
+"index": 18,
+"timestamp": 93.53,
+"source_line": 18,
+"text": "Teikiatsu hakobu zutsuu datte"
+},
+{
+"index": 19,
+"timestamp": 98.88,
+"source_line": 19,
+"text": "wasureru kimi ni aeba"
+},
+{
+"index": 20,
+"timestamp": 105.40,
+"source_line": 20,
+"text": "Seijaku wa romanchikku"
+},
+{
+"index": 21,
+"timestamp": 108.02,
+"source_line": 21,
+"text": "koucha ni toketa shugaa no you ni"
+},
+{
+"index": 22,
+"timestamp": 111.32,
+"source_line": 22,
+"text": "Zenshin ni meguru yo kimi no koe"
+},
+{
+"index": 23,
+"timestamp": 119.99,
+"source_line": 23,
+"text": "Kimi da yo kimi nanda yo"
+},
+{
+"index": 24,
+"timestamp": 123.06,
+"source_line": 24,
+"text": "egao wo kureta"
+},
+{
+"index": 25,
+"timestamp": 126.03,
+"source_line": 25,
+"text": "Namida mo hikaru nara"
+},
+{
+"index": 26,
+"timestamp": 128.65,
+"source_line": 26,
+"text": "ryuusei ni naru"
+},
+{
+"index": 27,
+"timestamp": 132.00,
+"source_line": 27,
+"text": "Kizutsuita sono te wo"
+},
+{
+"index": 28,
+"timestamp": 134.73,
+"source_line": 28,
+"text": "mou hanasanaide"
+},
+{
+"index": 29,
+"timestamp": 138.00,
+"source_line": 29,
+"text": "Negai wo kometa sora ni"
+},
+{
+"index": 30,
+"timestamp": 141.05,
+"source_line": 30,
+"text": "ashita ga kuru kara"
+},
+{
+"index": 31,
+"timestamp": 145.43,
+"source_line": 31,
+"text": "Michibiitekureta hikari wa kimi da yo"
+},
+{
+"index": 32,
+"timestamp": 151.70,
+"source_line": 32,
+"text": "Tsurarete boku mo hashiridashita"
+},
+{
+"index": 33,
+"timestamp": 156.58,
+"source_line": 33,
+"text": "Shiranu ma ni kurosu shihajimeta"
+},
+{
+"index": 34,
+"timestamp": 162.96,
+"source_line": 34,
+"text": "Hora ima da soko de hikaru nara"
+},
+{
+"index": 35,
+"timestamp": 169.57,
+"source_line": 35,
+"text": "Kimi da yo kimi nanda yo"
+},
+{
+"index": 36,
+"timestamp": 172.63,
+"source_line": 36,
+"text": "oshietekureta"
+},
+{
+"index": 37,
+"timestamp": 175.59,
+"source_line": 37,
+"text": "Kurayami wa owaru kara"
+},
+{
+"index": 38,
+"timestamp": 181.53,
+"source_line": 38,
+"text": "Kimi da yo kimi nanda yo"
+},
+{
+"index": 39,
+"timestamp": 184.66,
+"source_line": 39,
+"text": "oshietekureta"
+},
+{
+"index": 40,
+"timestamp": 187.50,
+"source_line": 40,
+"text": "Kurayami mo hikaru nara"
+},
+{
+"index": 41,
+"timestamp": 190.33,
+"source_line": 41,
+"text": "hoshizora ni naru"
+},
+{
+"index": 42,
+"timestamp": 193.45,
+"source_line": 42,
+"text": "Kanashimi mo egao ni"
+},
+{
+"index": 43,
+"timestamp": 196.25,
+"source_line": 43,
+"text": "mou kakusanaide"
+},
+{
+"index": 44,
+"timestamp": 199.37,
+"source_line": 44,
+"text": "Kirameku donna hoshi mo"
+},
+{
+"index": 45,
+"timestamp": 202.40,
+"source_line": 45,
+"text": "kimi wo terasu kara"
+},
+{
+"index": 46,
+"timestamp": 207.05,
+"source_line": 46,
+"text": "Kotae wa itsudemo"
+},
+{
+"index": 47,
+"timestamp": 210.10,
+"source_line": 46,
+"text": "guuzen? hitsuzen?"
+},
+{
+"index": 48,
+"timestamp": 212.26,
+"source_line": 47,
+"text": "Itsuka eranda michi koso"
+},
+{
+"index": 49,
+"timestamp": 215.93,
+"source_line": 47,
+"text": "unmei ni naru"
+},
+{
+"index": 50,
+"timestamp": 218.99,
+"source_line": 48,
+"text": "Nigirishimeta sono"
+},
+{
+"index": 51,
+"timestamp": 221.96,
+"source_line": 48,
+"text": "kibou mo fuan mo"
+},
+{
+"index": 52,
+"timestamp": 224.51,
+"source_line": 49,
+"text": "Kitto futari wo ugokasu"
+},
+{
+"index": 53,
+"timestamp": 227.90,
+"source_line": 49,
+"text": "hikari ni naru kara"
+}
+]
+}
+}

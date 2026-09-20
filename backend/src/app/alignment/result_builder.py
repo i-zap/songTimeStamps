@@ -12,6 +12,8 @@ def build_alignments(
     candidate_timestamps: list[float],
     document_id: UUID,
     audio_duration: float,
+    lyric_start: float = 0.0,
+    lyric_end: float | None = None,
 ) -> list[Alignment]:
     if len(candidate_timestamps) == 0:
         raise ValueError("Candidate timestamps cannot be empty.")
@@ -19,12 +21,26 @@ def build_alignments(
     if audio_duration <= 0:
         raise ValueError("Audio duration must be positive.")
 
+    if lyric_start < 0:
+        raise ValueError("Lyric start must not be negative.")
+
+    if lyric_end is None:
+        lyric_end = audio_duration
+
+    if lyric_end <= lyric_start:
+        raise ValueError("Lyric end must be greater than lyric start.")
+
+    if lyric_end > audio_duration:
+        raise ValueError("Lyric end cannot exceed audio duration.")
+
     if len(candidate_timestamps) < len(lyric_lines):
         raise ValueError("Not enough candidate timestamps for lyric lines.")
 
     matches = match_lyric_lines(
         lyric_lines,
         np.asarray(candidate_timestamps, dtype=np.float32),
+        lyric_start=lyric_start,
+        lyric_end=lyric_end,
     )
 
     alignments = []
@@ -33,7 +49,7 @@ def build_alignments(
         if index + 1 < len(matches):
             audio_end = matches[index + 1][1]
         else:
-            audio_end = audio_duration
+            audio_end = lyric_end
 
         if audio_end <= audio_start:
             raise ValueError("Alignment timestamps must be increasing.")
